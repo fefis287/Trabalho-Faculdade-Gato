@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 300px;
+  }
+  
+  *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+  
+  
+  header{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  background-color: #C690CF;
+  color: #000000;
+  padding: 0 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  
+  }
+  
+  body
+  {
+    background-color: #ffffff;
+  }
+
+
+  .nav-links li {
+    display: inline-block;
+    margin: 0 2.3rem;}
+
+
+    .nav-links  li a {
+        font-size: 1.25rem;
+        text-decoration: none;
+        color: black;
+        font-family:"Inter", sans-serif;
+        font-style: black italic;
+        font-weight: bold;
+        border-radius: 15.813rem;
+        padding: .5rem 1.5rem .5rem 1.5rem;
+        background-color:#F0BFF8;
+       
+      }
+
+  .Cat
+  {
+
+    font-family: "Noto Serif", serif;
+    margin-top: 2.938rem;
+    margin-right: 30.5rem; 
+    margin-left: 0; 
+    width: 7.5rem; 
+    height: 6.75rem; 
+    text-decoration: none;
+    color: #000000;
+
+  }
+
+  .carrin
+  {
+
+
+position: absolute;
+margin-left: 1400px;
+width: 72px;
+height: 46px;
+
+  }
+
+
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+.login-container {
+    background-color: #C690CF;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+}
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tudo
+{
+  margin: 10px;
+  display: flex;
+  flex-direction:column;
+}
+.qua
+{
+  border: none;
+  width: 500px;
+  background-color: #C690CF;
+}
+.coleira
+{
+margin-top: 10px;
+  margin-left: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.prince
+{
+  color: #95c996;
+}
+
+.add
+{
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: black;
+  font-family:"Inter", sans-serif;
+  font-style: black italic;
+  font-weight: bold;
+  border-radius: 15.813rem;
+  padding: .5rem 1.5rem .5rem 1.5rem;
+  background-color:#F0BFF8;
+
+}
